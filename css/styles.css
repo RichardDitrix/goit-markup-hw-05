@@ -46,9 +46,7 @@ img {
   color: #2196f3;
   cursor: pointer;
 }
-.current {
-  color: var(--accent-color);
-}
+
 .link {
   text-decoration: none;
 }
@@ -152,6 +150,9 @@ img {
 }
 .header-logo {
   margin-right: 95px;
+}
+.current {
+  color: var(--accent-color);
 }
 /* header contacts */
 .header-connect {
