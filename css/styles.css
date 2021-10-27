@@ -133,6 +133,19 @@ img {
   padding: 25px 0px;
   border-bottom: 1px solid var(--border-color);
 }
+.menu-item {
+  position: relative;
+}
+.current::after {
+  content: " ";
+  background-color: var(--accent-color);
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  top: 46.5px;
+}
 .menu-list {
   display: flex;
   position: relative;
@@ -154,16 +167,7 @@ img {
 .current {
   color: var(--accent-color);
 }
-.current::after {
-  content: " ";
-  background-color: var(--accent-color);
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-  display: block;
-  position: absolute;
-  top: 100%;
-}
+
 /* header contacts */
 .header-connect {
   display: flex;
