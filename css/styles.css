@@ -71,9 +71,8 @@ img {
 .btn-main {
   background-color: var(--buttons-background-color);
   border-radius: 4px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow, color, background-colo,
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-main:hover,
 .btn-main:focus {
@@ -452,11 +451,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link {
   fill: #afb1b8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-link:hover,
 .svg-link:focus {
