@@ -46,7 +46,6 @@ img {
   color: #2196f3;
   cursor: pointer;
 }
-
 .link {
   text-decoration: none;
 }
@@ -136,6 +135,7 @@ img {
 }
 .menu-list {
   display: flex;
+  position: relative;
   width: 295px;
 }
 .menu-item:not(:last-child) {
@@ -153,6 +153,16 @@ img {
 }
 .current {
   color: var(--accent-color);
+}
+.current::after {
+  content: " ";
+  background-color: var(--accent-color);
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  top: 100%;
 }
 /* header contacts */
 .header-connect {
