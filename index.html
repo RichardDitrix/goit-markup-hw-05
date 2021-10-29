@@ -19,7 +19,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-	 <script src="./js/modal.js"></script>
   </head>
   <body>
     <header class="header">
@@ -75,7 +74,7 @@
       <section class="section top-heero heero-background">
         <div class="container section-top-heero">
           <h1 class="solution">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-          <button type="button" class="btn-services btn-main">
+          <button type="button" class="btn-services btn-main" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -456,16 +455,17 @@
 	</div>
 </div> 
     </footer>
-	 <div class="backdrop is-hidden">
+	 <div class="backdrop is-hidden" data-modal>
 		 <div class="modal ">
-			 <div class="modal-sizing">
-			<button type="button" class="modal-svg-link modal-button"
-			><svg class="modal-close-link" width="11" height="11">
+			<button  class="modal-svg-link modal-button" data-modal-close>
+				<svg class="modal-close-link" width="11" height="11">
 			  <use href="./images/symbol-defs.svg#icon-xmark"></use>
 			</svg>
 			</button>
-		</div>
+	
 		 </div>
 	 </div>
+	  <script src="./js/modal.js"></script>
   </body>
 </html>
+<!--  -->
