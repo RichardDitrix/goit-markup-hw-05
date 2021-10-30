@@ -318,7 +318,7 @@ img {
   top: 0;
   left: 0;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(110%);
+  transform: translateY(101%);
 }
 .portfolio-style-list:hover .overlay-text {
   transform: translateY(0);
@@ -661,9 +661,9 @@ img {
   opacity: 1;
   pointer-events: none;
 }
-.is-hidden .modal {
+/* .is-hidden .modal {
   transform: 15s translate(-50%, -50%) scale(0.1);
-}
+} */
 .modal {
   position: absolute;
   top: 50%;
