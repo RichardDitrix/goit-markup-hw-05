@@ -305,20 +305,22 @@ img {
 .overlay-text {
   position: absolute;
   opacity: 1;
+  width: 100%;
+  height: 100%;
   padding: 63px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--nav-text-color);
+  background-color: var(--background-overlay-background);
+  top: 0%;
+  left: 0;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
   font-family: Roboto;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  color: var(--nav-text-color);
-  background-color: var(--background-overlay-background);
-  top: 0;
-  left: 0;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(101%);
 }
 .portfolio-style-list:hover .overlay-text {
   transform: translateY(0);
@@ -582,7 +584,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--contacts-color);
 }
-
 .footer-link {
   font-family: Roboto;
   font-style: normal;
@@ -591,7 +592,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--footer-link-color);
 }
-
 .h3-footer-svg {
   font-weight: 700;
   font-size: 14px;
@@ -614,7 +614,6 @@ img {
 .social-footer-item:not(:last-child) {
   margin-right: 10px;
 }
-
 .footer-svg-link {
   width: 100%;
   height: 100%;
@@ -629,7 +628,6 @@ img {
   fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-svg-link:hover,
 .footer-svg-link:focus {
   background-color: var(--accent-color);
@@ -642,7 +640,6 @@ img {
 .footer-contacts {
   margin-top: 20px;
 }
-
 .footer-items:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -655,15 +652,15 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
-
 .is-hidden {
   visibility: hidden;
   opacity: 1;
   pointer-events: none;
 }
-/* .is-hidden .modal {
-  transform: 15s translate(-50%, -50%) scale(0.1);
-} */
+.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: transform 990ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal {
   position: absolute;
   top: 50%;
@@ -672,7 +669,7 @@ img {
   min-height: 580px;
   background-color: var(--contacts-color);
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 990ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-svg-link {
   position: absolute;
@@ -687,7 +684,3 @@ img {
   top: 8px;
   right: 8px;
 }
-/* .modal-closed {
-  transform: translate(-50%, -50%);
-  transition: transform 10s cubic-bezier(0.4, 0, 0.2, 1);
-} */
