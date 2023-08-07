@@ -817,3 +817,7 @@ margin-bottom: 16px;
 		margin-left: 16px;
  		 fill: var(--white-background);
 	}
+	.label-btn:hover,
+	.label-btn:focus {
+		background-color: var(--pressed-blue);
+	}	
