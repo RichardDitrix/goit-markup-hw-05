@@ -738,10 +738,10 @@ margin-bottom: 16px;
 	}
 	.input-checkbox {
 	}
-	.check-box {
+	/* .check-box {
 		width: 16px;
 		height: 16px;
-	}
+	} */
 	.span-modal {
 		margin-left: 8px;
 	}
@@ -764,4 +764,56 @@ margin-bottom: 16px;
 		border: none;
 		border-radius: 4px;
 		cursor: pointer;
+	}
+	.footer__email {
+		width: 453px;
+		display: flex;
+		align-items: end;
+		margin-left: 80px;
+	}
+	.footer__label {
+		display: flex;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: var(--white-background);
+		margin-bottom: 16px;
+	}
+	.input {
+		width: 264px;
+		height: 40px;
+		display: flex;
+		padding-left: 16px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		border: 1px solid var(--white-background);
+		border-radius: 4px;
+		background-color: var(--hero-background);
+		font-size: 12px;
+		line-height: 2;
+		letter-spacing: 0.04em;	
+		color: var(--white-background);
+		
+	}
+	.label-btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 4px;
+		width: 165px;
+		height: 40px;
+		background-color: var(--primary-blue);
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.5;
+		letter-spacing: 0.04em;
+		color: var(--white-background);
+		margin-left: 24px;
+		cursor: pointer;
+		border: none;
+	}
+	.label-btn-svg {
+		margin-left: 16px;
+ 		 fill: var(--white-background);
 	}
