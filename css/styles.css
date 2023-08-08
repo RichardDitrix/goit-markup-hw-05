@@ -668,6 +668,7 @@ margin-bottom: 16px;
 		margin-bottom: 8px;
 	}
 	.modal-label {
+		display: block;
 		font-size: 12px;
 		line-height: 1.17;
 		letter-spacing: 0.04em;
@@ -680,9 +681,6 @@ margin-bottom: 16px;
 		margin-top: 8px;
 	}
 	.modal-div-label {
-		position: relative;
-	}
-	.modal-input-svg {
 		position: relative;
 	}
 	.modal-input {
