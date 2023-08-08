@@ -663,7 +663,9 @@ margin-bottom: 16px;
 		margin: 0 auto;
 		width: 360px;
 		height: auto;
-		
+	}
+	.modal-form-container {
+		margin-bottom: 8px;
 	}
 	.modal-label {
 		font-size: 12px;
@@ -673,9 +675,9 @@ margin-bottom: 16px;
 	}
 	.modal-text {
 		display: block;
-		margin-top: 8px;
 		margin-bottom: 4px;
 		color: var(--secondary-text);
+		margin-top: 8px;
 		
 	}
 	.modal-input-svg {
@@ -736,12 +738,7 @@ margin-bottom: 16px;
 		align-items: center;
 		margin-bottom: 24px;
 	}
-	.input-checkbox {
-	}
-	/* .check-box {
-		width: 16px;
-		height: 16px;
-	} */
+	
 	.span-modal {
 		margin-left: 8px;
 	}
@@ -781,9 +778,6 @@ margin-bottom: 16px;
 		letter-spacing: 0.02em;
 		color: var(--white-background);
 		margin-bottom: 16px;
-	}
-	.label-input {
-
 	}
 	.input {
 		width: 264px;
