@@ -736,14 +736,7 @@ margin-bottom: 16px;
 	 .textarea:focus {
 		border-color: var(--primary-blue);
 	 }
-	 /* ::placeholder {
-		font-family: Roboto;
-		font-size: 12px;
-		line-height: 1.17;
-		letter-spacing: 0.04em;
-		font-style: normal;
-		color: var(--secondary-text, rgba(46, 47, 66, 0.40));
-	 } */
+	
 	.checkbox {
 		color: var(--secondary-text);
 		font-size: 12px;
