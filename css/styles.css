@@ -793,11 +793,12 @@ margin-bottom: 16px;
 		padding-left: 16px;
 		border: 1px solid var(--white-background);
 		border-radius: 4px;
-		background-color: var(--hero-background);
+		background-color: transparent;
 		font-size: 12px;
 		line-height: 1.5;
 		letter-spacing: 0.04em;	
 		color: var(--white-background);
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 		
 	}
 	.label-btn {
