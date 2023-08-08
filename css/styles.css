@@ -766,17 +766,13 @@ margin-bottom: 16px;
 		cursor: pointer;
 	}
 	.footer__form {
-		display: flex;
-		
-		
-
+		margin-left: 80px;
 		
 	}
 	.footer__email {
 		width: 453px;
 		display: flex;
-		align-items: end;
-		margin-left: 80px;
+		/* align-items: end; */
 		gap: 24px;
 	}
 	.footer__label {
