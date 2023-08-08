@@ -765,14 +765,21 @@ margin-bottom: 16px;
 		border-radius: 4px;
 		cursor: pointer;
 	}
+	.footer__form {
+		display: flex;
+		
+		
+
+		
+	}
 	.footer__email {
 		width: 453px;
 		display: flex;
 		align-items: end;
 		margin-left: 80px;
+		gap: 24px;
 	}
 	.footer__label {
-		display: flex;
 		font-size: 16px;
 		font-weight: 500;
 		line-height: 1.5;
@@ -780,18 +787,19 @@ margin-bottom: 16px;
 		color: var(--white-background);
 		margin-bottom: 16px;
 	}
+	.label-input {
+
+	}
 	.input {
 		width: 264px;
 		height: 40px;
 		display: flex;
 		padding-left: 16px;
-		padding-top: 8px;
-		padding-bottom: 8px;
 		border: 1px solid var(--white-background);
 		border-radius: 4px;
 		background-color: var(--hero-background);
 		font-size: 12px;
-		line-height: 2;
+		line-height: 1.5;
 		letter-spacing: 0.04em;	
 		color: var(--white-background);
 		
@@ -801,9 +809,10 @@ margin-bottom: 16px;
 		justify-content: center;
 		align-items: center;
 		border-radius: 4px;
-		width: 165px;
+		min-width: 165px;
 		height: 40px;
 		background-color: var(--primary-blue);
+		font-family: "Roboto", sans-serif;
 		font-size: 16px;
 		font-weight: 500;
 		line-height: 1.5;
