@@ -679,7 +679,7 @@ margin-bottom: 16px;
 	.modal-text {
 		display: block;
 		color: var(--secondary-text);
-		/* margin-top: 8px; */
+		margin-top: 8px;
 	}
 	.modal-div-label {
 		position: relative;
