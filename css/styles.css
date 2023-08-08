@@ -736,14 +736,14 @@ margin-bottom: 16px;
 	 .textarea:focus {
 		border-color: var(--primary-blue);
 	 }
-	 .input-checkbox:checked +.checkbox::after {
-		transform: translate(18px);
-		background-color: var(--white-background);
-	 }
-	 .input-checkbox:checked +.checkbox::before {
-		background-color: var(--primary-blue);
-	 }
-
+	 .checkbox-svg	{
+		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		width: 16px;
+		height: 16px;
+		border: 1px solid rgba(46, 47, 66, 0.4);
+		border-radius: 2px; 
+	fill: var(--primary-blue)
+	}
 	.checkbox {
 		display: block;
 		color: var(--secondary-text);
@@ -760,14 +760,7 @@ margin-bottom: 16px;
 		fill: transparent;
 	}
 
-	.checkbox-svg	{
-		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-		width: 16px;
-		height: 16px;
-		border: 1px solid rgba(46, 47, 66, 0.4);
-		border-radius: 2px; 
-	fill: var(--primary-blue)
-	}
+	
 	.checkbox-link {
 		color: var(--primary-blue);
 		text-decoration: underline;
