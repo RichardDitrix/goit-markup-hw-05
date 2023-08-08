@@ -744,8 +744,11 @@ margin-bottom: 16px;
 		border-radius: 2px; 
 	fill: var(--primary-blue)
 	}
+	.input-checkbox {
+		position: absolute;
+	}
 	.checkbox {
-		display: block;
+		display: inline-flex;
 		color: var(--secondary-text);
 		font-size: 12px;
 		line-height: 1.17;
@@ -753,9 +756,18 @@ margin-bottom: 16px;
 		fill: transparent;
 		justify-content: center;
 		align-items: center;
-	
 		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	margin-left: 8px;
 	}
+	.input-checkbox:checked + .checkbox span {
+		background-color: var(--accent-cl);
+		border: none;
+		fill: #ffffff;
+	 }
+	 
+	 .input-checkbox:focus + .checkbox span {
+		border-color: var(--success-message);
+	 } */
 	.check-box {
 		fill: transparent;
 	}
