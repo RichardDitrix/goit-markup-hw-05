@@ -704,7 +704,7 @@ margin-bottom: 16px;
 			border-color: var(--primary-blue);
 		}
 .modal-input:focus + .svg-form{
-	fill: var(--pressed-blue);
+	fill: var(--primary-blue);
 }
 	.svg-form {
 		fill: var(--overlay-dark);
