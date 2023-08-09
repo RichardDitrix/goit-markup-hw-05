@@ -754,9 +754,9 @@ margin-bottom: 16px;
 		fill: var(--background-lite);
 	 }
 	 
-	 .input-checkbox:focus + .checkbox span {
+	 /* .input-checkbox:focus + .checkbox span {
 		border-color: var(--background-lite);
-	 } 
+	 }  */
 
 	.check-box {
 		width: 16px;
