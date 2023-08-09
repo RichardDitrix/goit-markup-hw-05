@@ -755,7 +755,7 @@ margin-bottom: 16px;
 	 }
 	 
 	 .input-checkbox:focus + .checkbox span {
-		border-color: var(--success-message);
+		border-color: var(--pressed-blue);
 	 } 
 
 	.check-box {
