@@ -749,13 +749,13 @@ margin-bottom: 16px;
 		
 	}
 	.input-checkbox:checked + .checkbox span {
-		background-color: var(--primary-blue);
+		background-color: var(--pressed-blue);
 		border: none;
 		fill: var(--white-background);
 	 }
 	 
 	 .input-checkbox:focus + .checkbox span {
-		border-color: var(--pressed-blue);
+		border-color: var(--background-lite);
 	 } 
 
 	.check-box {
